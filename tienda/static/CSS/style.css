@@ -1,0 +1,124 @@
+/* tienda\static\CSS\style.css */
+*{
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+
+    background-color: red I !important;
+}
+
+body{
+ 
+    background-image: url('../imagenes/patron.png'), linear-gradient(to left, #828e99, #dfe4ea);
+    
+}
+
+.contenedor-sesion{
+
+
+     background-image: url('../imagenes/patron.png'), linear-gradient(to left, #828e99, #dfe4ea);   
+}
+
+#barraNav {
+   /*  background-image: url('../imagenes/patron.png'), linear-gradient(to left,  #021323, #788697);  */
+    background: linear-gradient(to left, #021323, #788697);
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 30px 20px, rgba(0, 0, 0, 0.12) 0px 6px 10px;/*  color negro (0, 0, 0) con una opacidad del 0.35%. */
+}
+
+#barraNav .nav-link{
+    color: #ffffff; 
+    font-size: 1.1rem;
+}
+#barraNav .nav-link:hover {
+    color: #7FDBFF; 
+}
+
+.btn-primary, .btn-succes {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 20px, rgba(0, 0, 0, 0.12) 0px 6px 10px; /* color negro (0, 0, 0) con una opacidad del 35% */
+}
+
+
+
+
+
+.titulo {
+    text-align: center;
+    margin-top: 2vh; 
+    /* La unidad vh en CSS se refiere al "viewport height" (altura de la ventana de visualización), y 1vh es igual al 1% de la altura del viewport.  */
+    
+
+}
+
+
+
+
+
+
+/* #activePage{
+    color: black;
+    font-weight: 500;
+}
+ */
+
+/* Agregar efecto sobre la barra */
+.nav-item .nav-link:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; /* Opcional: añade suavidad a la transición */
+}
+
+
+/* Modificar navbar tamaño y espaciado de elementos */
+.navbar-nav{
+   /*  background-color: red; */
+    width: 60vw;  /*    vh = viewport height   1vh = 1% del alto de la pantalla
+                        vw= viewport width  1vw = 1% del ancho de la pantalla  */
+
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+
+
+/* IMG LOGO */
+.navbar-brand img {
+    height: auto; 
+    max-height: 8vh; /* maxima altura */
+    width: auto; /* Mantener proporciones*/
+    margin-left: 10%;
+    
+}
+  
+
+
+/* BOTONES CREAR E INICIAR SESION */
+.contenedor-sesion {
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ASD !important
+
+*Los puntos en las rutas relativas se utilizan para navegar por el sistema de archivos en relación con la ubicación actual del archivo.
+Un solo punto (.): Se refiere al directorio actual. Es el equivalente a decir "aquí mismo".
+Dos puntos (..): Se refiere al directorio padre o superior al directorio actual. Es el equivalente a decir "subir un nivel en la jerarquía de directorios".
+
+
+
+
+*/
