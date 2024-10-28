@@ -1,5 +1,5 @@
 ## Nombre del Proyecto: Echo Vinyl
-Descripción General
+Descripción General:
 Echo Vinyl es una aplicación web que ofrece una experiencia de compra de vinilos, tanto nuevos como usados, a través de una interfaz moderna y fácil de usar. Los usuarios pueden explorar una amplia colección de vinilos, crear cuentas, iniciar sesión, enviar consultas mediante un formulario de contacto y gestionar sus mensajes. La aplicación está desarrollada con el framework Django y utiliza SQLite para la gestión de cuentas de usuario y almacenamiento de mensajes. Además, emplea templates que integran JavaScript, junto con estilos CSS y Bootstrap, para proporcionar una experiencia de usuario atractiva y dinámica.
 
 
